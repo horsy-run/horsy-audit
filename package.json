@@ -1,0 +1,21 @@
+{
+  "name": "horsy-audit",
+  "version": "0.1.0",
+  "description": "See where your Claude Code tokens and money go. Runs locally, nothing leaves your machine.",
+  "type": "module",
+  "bin": {
+    "horsy-audit": "bin/horsy-audit.mjs"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsy-run/horsy-audit.git"
+  },
+  "homepage": "https://horsy.run"
+}
